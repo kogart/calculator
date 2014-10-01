@@ -21,3 +21,8 @@ def pow(a,x):
 def Summan( *MyList ):
     c = sum(MyList)
     return c
+
+def Medeltal( *MyList ):
+    for i in MyList:
+        c = sum(MyList)/len(MyList)
+    return c
