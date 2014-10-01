@@ -1,5 +1,5 @@
 def divition (a , b):
-    c = a / b
+    c = float(a) / float(b)
     return c
 def Plus(a, b):
     c = a + b
