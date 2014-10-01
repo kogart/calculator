@@ -7,3 +7,6 @@ def Plus(a, b):
 def Minus(a, b):
     c = a - b
     return c
+def multiplikation(a, b):
+    c = a * b
+    return c
