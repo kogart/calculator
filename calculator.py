@@ -30,5 +30,5 @@ def Medeltal( *MyList ):
 def Median(*MyList):
     i = len(MyList)
     if not i%2:
-        return (MyList[(i/2)-1]+MyList[i/2])/2
-    return MyList[i/2]
+        return (sorted(MyList)[(i/2)-1]+sorted(MyList)[i/2])/2
+    return sorted(MyList)[i/2]
