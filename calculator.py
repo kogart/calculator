@@ -26,3 +26,9 @@ def Medeltal( *MyList ):
     for i in MyList:
         c = sum(MyList)/len(MyList)
     return c
+
+def Median(*MyList):
+    i = len(MyList)
+    if not i%2:
+        return (MyList[(i/2)-1]+MyList[i/2])/2
+    return MyList[i/2]
